@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+}
+.name-color{
+    color: rgba(253, 143, 99, 0.815);
+}
+.word-color{
+    color:rgb(250, 93, 93);
+}
+.gray-wording{
+    color:rgb(129, 129, 129);
+}
+    
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    line-height: 30%;
+
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 20px 20px 110px;
+
+  }
+.column img{
+    height:100%;
+    box-shadow:10px 10px 40px rgb(190, 190, 190);
+    border-radius: 15px;
+
+    
+}
+.half-width img{
+    height: 100%;
+    width: 350px;
+}
+.half-width{
+    width: 30%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+}
+.about-section{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+}
+#second-half-width{
+        width: 35%;
+        float: left;
+        margin: 10%;
+        padding-left: 15%;
+        clear:left;
+        
+}    
+.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;     
+}
+#latest-project-header{
+    float: left;
+    margin: 100px 300px 50px 70px;
+
+}
+.latest-project-section{
+    background-color: none;
+    margin-top: 40%;
+    height: 10px;
+    box-sizing:border-box;
+    
+}
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 106, 80, 0.897);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 700;
+    background-image: linearGradient(45deg, light);
+    font-family: sans-serif;
+}
+#chat-link-button{
+    color: white;
+    text-decoration: none;
+    background-color:rgba(255, 106, 80, 0.897);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 700;
+    background-image: linearGradient(45deg, light);
+    font-family: sans-serif;
+    margin: 50px 50px 5000px 800px;
+}
+.button-container{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.button-container img{
+    margin: 200px 50px 100px 340px;
+    width: 700px;
+}
+.btn{
+    position: absolute;
+    top: 808px;
+    left: 15px;
+    transform: translate(850px, -5px);
+    color: white;
+    text-decoration: none;
+    background-color:rgba(255, 106, 80, 0.897);
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-weight: 500;
+    background-image: linearGradient(180,  tomato,rgba(255, 106, 80, 0.897));
+    font-family: sans-serif;
+    border: none;
+}
+.btn:hover {
+    background-color: tomato;
+}
+.text-alignment{
+    position: absolute;
+    top: 1255px;
+    left: 40px;
+    transform: translate(350px, 100px);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: white;
+
+}
+.social-media{
+    float: right;
+    width: 10%;
+    padding: 0px 0px;
+    margin: 20px 130px 20px 2px;
+
+}
+.footer-style{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 1000px 300px 50px 250px;
+    font-weight: 700;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color:rgb(129, 129, 129);
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-family: sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(218, 216, 216);
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: none;
+    color: rgb(90, 88, 88);
+  }
+
