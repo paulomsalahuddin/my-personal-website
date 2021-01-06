@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+/* These are all the button and word color used for the span attr */
 .name-color{
     color: rgba(253, 143, 99, 0.815);
 }
@@ -25,6 +26,7 @@ p{
 *{
     box-sizing: border-box;
 }
+/* This is for the images in the latest project work section */
 .column {
     float: left;
     width: 20%;
@@ -39,6 +41,7 @@ p{
 
     
 }
+/* These are for the "inrto" and the "about" section */
 .half-width img{
     height: 100%;
     width: 350px;
@@ -57,14 +60,8 @@ p{
     margin-left: 0px;
     
 }
-#second-half-width{
-        width: 35%;
-        float: left;
-        margin: 10%;
-        padding-left: 15%;
-        clear:left;
-        
-}    
+
+/* THis is for the floating images in the latest project section */
 .clearfix::after {
         content: "";
         clear: both;
@@ -72,7 +69,7 @@ p{
 }
 #latest-project-header{
     float: left;
-    margin: 100px 300px 50px 70px;
+    margin: 100px 300px 50px 40px;
 
 }
 .latest-project-section{
@@ -92,6 +89,10 @@ p{
     background-image: linearGradient(45deg, light);
     font-family: sans-serif;
 }
+.link-button:hover {
+    background-color: tomato;
+    color: white;
+}
 #chat-link-button{
     color: white;
     text-decoration: none;
@@ -108,15 +109,16 @@ p{
     width: 100%;
     max-width: 400px;
 }
+/* This is for the work iquiry image */
 .button-container img{
-    margin: 200px 50px 100px 340px;
+    margin: 190px 50px 100px 300px;
     width: 700px;
 }
 .btn{
     position: absolute;
-    top: 808px;
+    top: 800px;
     left: 15px;
-    transform: translate(850px, -5px);
+    transform: translate(800px, -5px);
     color: white;
     text-decoration: none;
     background-color:rgba(255, 106, 80, 0.897);
@@ -130,21 +132,23 @@ p{
 .btn:hover {
     background-color: tomato;
 }
+/* This is for the "work inquiry" text */
 .text-alignment{
     position: absolute;
-    top: 1255px;
+    top: 1290px;
     left: 40px;
-    transform: translate(350px, 100px);
+    transform: translate(310px, 100px);
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     color: white;
 
 }
+/* The social media buttons */
 .social-media{
     float: right;
     width: 10%;
     padding: 0px 0px;
-    margin: 20px 130px 20px 2px;
+    margin: 20px 217px 20px -200px;
 
 }
 .footer-style{
@@ -153,6 +157,7 @@ p{
     margin: 1000px 300px 50px 250px;
     font-weight: 700;
 }
+/* The navigation bar */
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: white;
