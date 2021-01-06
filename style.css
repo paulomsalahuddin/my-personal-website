@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-/* These are all the button and word color used for the span attr */
+/* These are all the button and word colors used for the span attr */
 .name-color{
     color: rgba(253, 143, 99, 0.815);
 }
@@ -111,9 +111,10 @@ p{
 }
 /* This is for the work iquiry image */
 .button-container img{
-    margin: 190px 50px 100px 300px;
+    margin: 210px 50px 100px 293px;
     width: 700px;
 }
+/* This is for the let's talk button */
 .btn{
     position: absolute;
     top: 800px;
